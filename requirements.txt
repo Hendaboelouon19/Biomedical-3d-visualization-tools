@@ -1,0 +1,39 @@
+────────────────────────────────────────────────────────────
+⚙️ REQUIREMENTS – TASK 3 IMAGING VISUALIZATION PLATFORM
+────────────────────────────────────────────────────────────
+
+# Core GUI & Visualization Libraries
+PyQt5==5.15.10                 # Graphical User Interface
+vtk==9.3.0                     # 3D visualization and volume rendering
+pyvista==0.43.3                # Simplified 3D interface built on VTK
+
+# Medical Imaging & Numerical Processing
+nibabel==5.2.0                 # NIfTI / neuroimaging file handling
+numpy==1.26.4                  # Numerical computations
+scipy==1.13.1                  # Scientific utilities and resampling
+scikit-image==0.24.0           # Image processing (for curved MPR & segmentation)
+opencv-python==4.10.0.84       # 2D/3D frame visualization and conversion
+
+# Plotting & Visualization Helpers
+matplotlib==3.9.0              # Slice plotting and overlays
+pyqtgraph==0.13.4              # Real-time interactive plotting (optional)
+
+# Data Management & Utilities
+pandas==2.2.2                  # Data organization for segmentation metadata
+pillow==10.3.0                 # Image handling and export
+tqdm==4.66.4                   # Progress bars and task tracking
+
+────────────────────────────────────────────────────────────
+✅ INSTALLATION
+────────────────────────────────────────────────────────────
+# Create and activate a Python 3.10+ virtual environment, then run:
+pip install -r requirements.txt
+
+────────────────────────────────────────────────────────────
+💡 NOTE
+────────────────────────────────────────────────────────────
+- All libraries are tested with Python 3.10 / 3.11
+- Ensure your system supports VTK OpenGL rendering (GPU drivers updated)
+- For macOS/Linux users, you may need `pip install PyQt5-sip` if missing
+- Optional: use `pyqtgraph` only for advanced interactive sliders
+────────────────────────────────────────────────────────────
