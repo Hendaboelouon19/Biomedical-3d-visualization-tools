@@ -1,6 +1,4 @@
-# Biomedical-3d-visualization-tools
-An interactive biomedical visualization platform that integrates 3D surface rendering, segmentation-based navigation, MPR and curved MPR reconstruction, clipping planes, and physiological motion simulation across four human systems — built with PyQt and VTK for real-time CT/MRI/NIfTI exploration.
-# 🧠 Biomedical 3D Multi-System Visualization Platform
+
 
 **Repository name:** `Biomedical-3D-MPR-Visualization`  
 **Description:**  
