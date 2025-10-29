@@ -1,10 +1,13 @@
+────────────────────────────────────────────────────────────
+🧠 TASK 3 – BIOMEDICAL IMAGING & 3D VISUALIZATION PLATFORM
+────────────────────────────────────────────────────────────
 
+A complete interactive visualization system for medical imaging data (CT / MRI / NIfTI).  
+It integrates real-time 3D rendering, MPR (multi-planar reconstruction), curved MPR,  
+fly-through navigation, and physiological motion simulation across multiple organ systems.
 
-**Repository name:** `Biomedical-3D-MPR-Visualization`  
-**Description:**  
-An interactive biomedical visualization platform combining **3D anatomy rendering**, **segmentation-based navigation**, **multi-planar reconstruction (MPR)**, **curved reconstruction**, and **physiological motion simulation** — designed for real-time exploration of medical imaging data (CT/MRI/NIfTI) across multiple body systems.
-
----
+Developed using *Python, PyQt5, VTK, PyVista, and NiBabel*, this platform enables  
+precise visualization of anatomical structures and dynamic physiological processes
 
 ## 📂 Repository Structure
 Task3-Imaging-Visualization/
